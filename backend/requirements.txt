@@ -1,0 +1,37 @@
+# Core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+
+# S3/MinIO
+boto3==1.35.91
+minio==7.2.15
+
+# Redis
+redis==5.2.1
+
+# AI/Agent
+langgraph==0.2.60
+langchain-core==0.3.28
+
+# Utilities
+httpx==0.28.1
+python-dateutil==2.9.0
+orjson==3.10.13
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1
